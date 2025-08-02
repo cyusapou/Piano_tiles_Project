@@ -1,0 +1,63 @@
+[gd_scene load_steps=10 format=3 uid="uid://d2conue21cjun"]
+
+[ext_resource type="Texture2D" uid="uid://com06bqh2x3na" path="res://Capture.PNG" id="1_7r1g0"]
+[ext_resource type="Texture2D" uid="uid://lgk23udid24s" path="res://Copilot_20250721_020321.png" id="1_eiy7p"]
+[ext_resource type="Texture2D" uid="uid://kenxulc37boe" path="res://background.png" id="1_qoqlk"]
+[ext_resource type="Script" uid="uid://cu7d77vjm31ya" path="res://Start.cs" id="2_h7a2f"]
+[ext_resource type="Texture2D" uid="uid://do2a03c2bybpq" path="res://20250802_0130_Skyblue Game Design_simple_compose_01k1kzfzn7egmtnv4ft1k1wwkt.png" id="3_h7a2f"]
+[ext_resource type="Texture2D" uid="uid://ercfo1ybu10a" path="res://ChatGPT Image Aug 2, 2025, 06_00_53 AM.png" id="4_cqjrg"]
+[ext_resource type="Texture2D" uid="uid://bhmmke43ucxm4" path="res://BackgroundEraser_20250802_053504330.png" id="6_cqjrg"]
+[ext_resource type="Texture2D" uid="uid://bqup42bjcp1le" path="res://ChatGPT Image Aug 2, 2025, 06_09_04 AM.png" id="8_e2xy7"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qoqlk"]
+
+[node name="MainMenu" type="Node2D"]
+
+[node name="Capture" type="Sprite2D" parent="."]
+position = Vector2(185, 391)
+scale = Vector2(3.37276, 8.4527)
+texture = ExtResource("1_7r1g0")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(-999, 66)
+texture = ExtResource("1_qoqlk")
+
+[node name="Copilot20250721020321" type="Sprite2D" parent="."]
+position = Vector2(-882, 443)
+scale = Vector2(0.414904, 0.354113)
+texture = ExtResource("1_eiy7p")
+
+[node name="Start" type="Button" parent="."]
+offset_left = 95.0
+offset_top = 609.0
+offset_right = 226.0
+offset_bottom = 640.0
+scale = Vector2(1.73899, 2.40207)
+theme_override_colors/font_disabled_color = Color(0.82, 0.4674, 0.74948, 1)
+text = "PLAY THE GAME"
+script = ExtResource("2_h7a2f")
+
+[node name="ChatGptImageAug2,2025,060053Am" type="Sprite2D" parent="."]
+position = Vector2(208, 656)
+scale = Vector2(0.37207, 0.239624)
+texture = ExtResource("4_cqjrg")
+
+[node name="202508020130SkyblueGameDesignSimpleCompose01k1Kzfzn6e5Vb76Ezasswz286" type="Sprite2D" parent="."]
+position = Vector2(1962, 201)
+scale = Vector2(1, 0.297526)
+texture = SubResource("CompressedTexture2D_qoqlk")
+
+[node name="202508020130SkyblueGameDesignSimpleCompose01k1Kzfzn7Egmtnv4Ft1k1Wwkt" type="Sprite2D" parent="."]
+position = Vector2(891, 321)
+scale = Vector2(0.47998, 0.254557)
+texture = ExtResource("3_h7a2f")
+
+[node name="BackgroundEraser20250802053504330" type="Sprite2D" parent="."]
+position = Vector2(202, 434)
+scale = Vector2(0.351389, 0.302429)
+texture = ExtResource("6_cqjrg")
+
+[node name="ChatGptImageAug2,2025,060904Am" type="Sprite2D" parent="."]
+position = Vector2(199, 202)
+scale = Vector2(0.313477, 0.219238)
+texture = ExtResource("8_e2xy7")

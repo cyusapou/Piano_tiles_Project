@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://due1jqlfj7pa5"]
+
+[ext_resource type="Script" uid="uid://bwur0x0gaowou" path="res://YouLost.cs" id="1_jk45c"]
+[ext_resource type="Texture2D" uid="uid://cdtju7req18g5" path="res://20250802_0045_Red Transparent 'You Lost'_simple_compose_01k1kwysrbe11ratda9g6vnvgb.png" id="2_ri8n5"]
+
+[node name="YouLost" type="CanvasLayer"]
+script = ExtResource("1_jk45c")
+
+[node name="PlayAgain" type="Button" parent="."]
+offset_left = 110.0
+offset_top = 460.0
+offset_right = 198.0
+offset_bottom = 491.0
+scale = Vector2(2.05041, 1.73621)
+text = "Play Again"
+
+[node name="MainMenu" type="Button" parent="."]
+offset_left = 57.0
+offset_top = 542.0
+offset_right = 153.0
+offset_bottom = 573.0
+scale = Vector2(3.09854, 1.63214)
+text = "Main Menu
+"
+
+[node name="202508020045RedTransparent\'youLost\'SimpleCompose01k1Kwysrbe11Ratda9g6Vnvgb" type="Sprite2D" parent="."]
+position = Vector2(207, 338)
+scale = Vector2(0.378174, 0.17806)
+texture = ExtResource("2_ri8n5")

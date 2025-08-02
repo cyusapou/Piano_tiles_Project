@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://b0kxbhsxu55vv"]
+
+[ext_resource type="Script" uid="uid://ctjurnoe37sq5" path="res://Tile.cs" id="1_j13wd"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_je3b2"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_j13wd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_je3b2"]
+size = Vector2(98, 150)
+
+[node name="Tile" type="Area2D"]
+gravity_space_override = 3
+gravity = 4096.0
+script = ExtResource("1_j13wd")
+TileTexture = SubResource("CanvasTexture_je3b2")
+MoveSpeed = 500.0
+DestroyY = 920.0
+metadata/_edit_vertical_guides_ = [50.0, -88.0]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0, 1)
+scale = Vector2(-97.9071, -149.969)
+texture = SubResource("CanvasTexture_j13wd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_je3b2")

@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=3 uid="uid://dv5tc2a03k5f2"]
+
+[ext_resource type="Script" uid="uid://bvib6dbkdee71" path="res://GameManager.cs" id="1_glv2v"]
+[ext_resource type="PackedScene" uid="uid://b0kxbhsxu55vv" path="res://Tile.tscn" id="2_cm0pq"]
+[ext_resource type="PackedScene" uid="uid://ckmqup53pch51" path="res://YouWon.tscn" id="3_fos0i"]
+[ext_resource type="PackedScene" uid="uid://due1jqlfj7pa5" path="res://YouLost.tscn" id="4_3dxm6"]
+[ext_resource type="Texture2D" uid="uid://kenxulc37boe" path="res://background.png" id="5_fos0i"]
+
+[node name="Main" type="Node2D"]
+metadata/_edit_vertical_guides_ = [137.0, 101.0, 420.0, 85.0, 411.0]
+metadata/_edit_horizontal_guides_ = [-52.0, -315.0, 921.0]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(206, 456)
+scale = Vector2(0.482393, 1.90208)
+texture = ExtResource("5_fos0i")
+
+[node name="GameManager" type="Node" parent="."]
+script = ExtResource("1_glv2v")
+TileScene = ExtResource("2_cm0pq")
+YouWonScene = ExtResource("3_fos0i")
+YouLostScene = ExtResource("4_3dxm6")
+SpawnInterval = 0.4
+WinScore = 200
+MaxActiveTiles = 900

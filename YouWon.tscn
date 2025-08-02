@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckmqup53pch51"]
+
+[ext_resource type="Script" uid="uid://twd3777ydww5" path="res://YouWon.cs" id="1_lhhbr"]
+[ext_resource type="Texture2D" uid="uid://cf62tcgfhk67y" path="res://20250802_0004_Transparent 'YOU WON'_simple_compose_01k1ktkdbce91bqgges3tbr0ba.png" id="2_cnfob"]
+
+[node name="YouWon" type="CanvasLayer"]
+script = ExtResource("1_lhhbr")
+
+[node name="RestartGame" type="Button" parent="."]
+offset_left = 120.0
+offset_top = 463.0
+offset_right = 165.0
+offset_bottom = 499.0
+scale = Vector2(3.28901, 1.66799)
+text = "Next"
+
+[node name="MainMenu" type="Button" parent="."]
+offset_left = 63.0
+offset_top = 543.0
+offset_right = 163.0
+offset_bottom = 574.0
+scale = Vector2(2.68377, 2.33818)
+text = "Main Menu
+"
+
+[node name="202508020004Transparent\'youWon\'SimpleCompose01k1Ktkdbce91Bqgges3Tbr0Ba" type="Sprite2D" parent="."]
+position = Vector2(204, 330)
+scale = Vector2(0.409668, 0.202474)
+texture = ExtResource("2_cnfob")
