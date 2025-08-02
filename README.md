@@ -1,8 +1,8 @@
-# 🎵 Piano Tales: A Rhythm-Based Tapping Game
+# 🎵 Piano Tiles: A Rhythm-Based Tapping Game
 
 ## Overview
 
-**Piano Tales** is an engaging rhythm-based tapping game developed using the **Godot Engine 4.x (Mono)** and **C#**. Players must tap falling tiles in sync with the rhythm to score points, testing their reflexes and sense of timing. Featuring dynamic tile spawning and responsive UI transitions, Piano Tales offers a challenging and immersive gameplay experience.
+**Piano Tiles** is an engaging rhythm-based tapping game developed using the **Godot Engine 4.x (Mono)** and **C#**. Players must tap falling tiles in sync with the rhythm to score points, testing their reflexes and sense of timing. Featuring dynamic tile spawning and responsive UI transitions, Piano Tales offers a challenging and immersive gameplay experience.
 
 ---
 
