@@ -109,6 +109,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 📬 Contact
 
 For questions, suggestions, or feedback, feel free to reach out at:\
-**[Your Name or Handle]**\
-**[Your Email or GitHub Profile Link]**
+**Cyusa Clevel**\
+**+250798971658**
+**cyusaclevel@gmail.com**
 
